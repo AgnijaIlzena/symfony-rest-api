@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 16px;
+}
+
+#home .main-title{
+    margin-bottom: 30px;
+}
+#home .sub-title{
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+#home div{
+    border-radius: 5px;
+    max-width: 400px;
+    height:48px;
+    padding: 2px;
+    margin: 10px 0;
+    font-size: 1.3em;
+    align-content: center;
+}
+#home div.get {
+    border: 2px solid dodgerblue;
+}
+#home div.put {
+    border: 2px solid darkorange;
+}
+#home span.btn{
+    color: white;
+    padding: 8px 16px;
+    width: 100px;
+    height:40px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#home span.get{
+    background-color: dodgerblue ;
+}
+#home span.put{
+    background-color: darkorange ;
+}
+

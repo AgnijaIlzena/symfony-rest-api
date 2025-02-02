@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<style>
+</style>
+
+<div id="home" class="example-wrapper">
+    <h1 class="main-title">Documentation</h1>
+    <p class="sub-title">Server: http://localhost:8000 - Developement server</p>
+    <div class="get"><span class="btn get">GET</span>api/investments</div>
+    <div class="get"><span class="btn get">GET</span>api/investment/{id}</div>
+    <div class="get"><span class="btn get">GET</span>api/investments/filter</div>
+    <div class="put"><span class="btn put">PUT</span>api/investments/{id}</div>
+    <div class="put"><span class="btn put">PATCH</span>api/investments/{id}</div>
+</div>
+{% endblock %}
