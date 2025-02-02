@@ -17,3 +17,6 @@ php bin/console doctrine:migrations:migrate
 
 ###  Run command to import JSON data in the database (located in data/dataset.json).
 php bin/console app:import-investment-data
+
+## REST API endpoints
+### To access REST API in dev env, configured base url is "http://127.0.0.1:8000/api/"
