@@ -70,6 +70,13 @@ class ApiInvestmentsController extends AbstractController
         if (isset($requestData['ville'])) {
             $investment->setVille($requestData['ville']);
         }
+        if (isset($requestData['enveloppePrev'])) {
+            $investment->setEnveloppePrev($requestData['enveloppePrev']);
+        }
+        if (isset($requestData['etatAvancement'])) {
+            $investment->setEtatAvancement($requestData['etatAvancement']);
+        }
+
 
         $entityManager->flush();
 
