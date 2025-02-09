@@ -45,7 +45,7 @@ class ApiInvestmentsController extends AbstractController
             return $this->json($investments);
         }
 
-    #[Route('/investments/{id}', name: 'investment_update', methods:['PUT', 'PATCH'] )]
+    #[Route('/investment/{id}', name: 'investment_update', methods:['PUT', 'PATCH'] )]
     public function update(EntityManagerInterface $entityManager, Request $request, int $id, SerializerInterface $serializer): JsonResponse
     {
         $investment = $entityManager

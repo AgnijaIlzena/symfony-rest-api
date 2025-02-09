@@ -11,7 +11,7 @@ $ symfony serve:stop
 
 ## Data Base
 ### Fill the credentials of data base in .env. MySQL is used in the project.
-### Create data base. MySQL is configured.
+### Create data base. MySQL is configured. The data base should run on its own server. Database connexion details are described in the .env file.
 $ symfony console doctrine:database:create
 ### Create and execute migrations
 $ php bin/console make:migration  
@@ -22,3 +22,5 @@ $ php bin/console app:import-investment-data
 
 ## REST API endpoints
 ### To access REST API in dev env, configured base url is "http://127.0.0.1:8000/api/"
+### To access API home page with list of endpoints see url "http://127.0.0.1:8000/"
+
